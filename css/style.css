@@ -1,0 +1,129 @@
+
+.header_top{
+    height: 80px;
+    padding: 30px 0;               /* !!!ВЫРОВНЯТЬ ПО ЦЕНТРУ???? */
+    border-bottom: #EEEEEE 1px solid;
+}
+
+.header_top span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #121E31;
+
+}
+
+
+.button{
+    
+    background: #1B8271;
+    border: 1px solid #F6FBFA;
+    border-radius: 8px;
+    padding: 6px 11px;
+    
+    color:#fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.sign-button{
+    background-image: url('../icons/sign.svg');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left:45px;
+    margin:0 20px;
+}
+
+
+.cont_phone {
+        background-image: url('../icons/phone.svg');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left:45px;
+    margin:0 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #121E31;
+    
+
+}
+
+.cont_mail {
+    background-image: url('../icons/email.svg');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left:45px;
+    margin:0 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #121E31;
+
+}
+
+
+.header_down{
+    height: 130px;
+    padding: 30px 0;
+}
+
+.main-menu__item{
+    padding:0px 20px;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #717579;
+    position: relative;
+}
+
+.main-menu__link.active,
+.main-menu__link:hover{
+    color: #121E31;
+}
+
+.main-menu__link.has-child:after{
+    content: "";
+    background-image: url('../icons/arrow.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    width:15px;
+    height:15px;
+
+    position:absolute;
+    right:-20px;
+    top:5px;
+    bottom:0;
+    margin:auto 0;
+}
+
+
+
+.account-button{
+    padding:  15px 45px 15px 58px;
+    border: 1px solid #FF7468;
+    border-radius: 8px;
+
+    background-image: url('../icons/account.svg');
+    background-position: 25px center;
+    background-repeat: no-repeat;
+    
+    margin:0 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FF7468;
+    text-decoration: none;
+}
+
+.account-button:hover{
+    
+    background-color:#FF7468;
+    color: #ffffff;
+
+}

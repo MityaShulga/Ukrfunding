@@ -20,7 +20,7 @@ body{
 
 
 .button{
-    
+    display: inline-blockadd;
     background: #1B8271;
     border: 1px solid #F6FBFA;
     border-radius: 8px;
@@ -111,15 +111,19 @@ body{
 
 
 .account-button{
-    padding:  15px 45px 15px 58px;
+
+    display: inline-block;
+    margin:0 20px;
+     
     border: 1px solid #FF7468;
     border-radius: 8px;
 
     background-image: url('../icons/account.svg');
-    background-position: 25px center;
+    background-position: 15% 50%;
     background-repeat: no-repeat;
     
-    margin:0 20px;
+    
+    padding:  15px 45px 15px 58px;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
